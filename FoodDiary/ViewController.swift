@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         let alertAction = UIAlertAction(title: "ok", style: .Cancel, handler: nil)
         alertController.addAction(alertAction)
         self.presentViewController(alertController, animated: true, completion: nil)
+        
+        // testComment
     }
     
     override func viewDidLoad() {
