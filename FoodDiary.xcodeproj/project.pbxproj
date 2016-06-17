@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC5F6C1A1D13D701008D0895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F6C191D13D701008D0895 /* AppDelegate.swift */; };
+		DC5F6C1C1D13D701008D0895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F6C1B1D13D701008D0895 /* ViewController.swift */; };
+		DC5F6C1F1D13D701008D0895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5F6C1D1D13D701008D0895 /* Main.storyboard */; };
+		DC5F6C221D13D701008D0895 /* FoodDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC5F6C201D13D701008D0895 /* FoodDiary.xcdatamodeld */; };
+		DC5F6C241D13D701008D0895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5F6C231D13D701008D0895 /* Assets.xcassets */; };
+		DC5F6C271D13D701008D0895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5F6C251D13D701008D0895 /* LaunchScreen.storyboard */; };
+		DC5F6C321D13D702008D0895 /* FoodDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F6C311D13D702008D0895 /* FoodDiaryTests.swift */; };
+		DC5F6C3D1D13D702008D0895 /* FoodDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F6C3C1D13D702008D0895 /* FoodDiaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC5F6C2E1D13D702008D0895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5F6C0E1D13D701008D0895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5F6C151D13D701008D0895;
+			remoteInfo = FoodDiary;
+		};
+		DC5F6C391D13D702008D0895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5F6C0E1D13D701008D0895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5F6C151D13D701008D0895;
+			remoteInfo = FoodDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC5F6C161D13D701008D0895 /* FoodDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5F6C191D13D701008D0895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC5F6C1B1D13D701008D0895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC5F6C1E1D13D701008D0895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5F6C211D13D701008D0895 /* FoodDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodDiary.xcdatamodel; sourceTree = "<group>"; };
+		DC5F6C231D13D701008D0895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5F6C261D13D701008D0895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC5F6C281D13D701008D0895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5F6C2D1D13D702008D0895 /* FoodDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5F6C311D13D702008D0895 /* FoodDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDiaryTests.swift; sourceTree = "<group>"; };
+		DC5F6C331D13D702008D0895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5F6C381D13D702008D0895 /* FoodDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5F6C3C1D13D702008D0895 /* FoodDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDiaryUITests.swift; sourceTree = "<group>"; };
+		DC5F6C3E1D13D702008D0895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5F6C131D13D701008D0895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5F6C2A1D13D702008D0895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5F6C351D13D702008D0895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5F6C0D1D13D701008D0895 = {
+			isa = PBXGroup;
+			children = (
+				DC5F6C181D13D701008D0895 /* FoodDiary */,
+				DC5F6C301D13D702008D0895 /* FoodDiaryTests */,
+				DC5F6C3B1D13D702008D0895 /* FoodDiaryUITests */,
+				DC5F6C171D13D701008D0895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5F6C171D13D701008D0895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F6C161D13D701008D0895 /* FoodDiary.app */,
+				DC5F6C2D1D13D702008D0895 /* FoodDiaryTests.xctest */,
+				DC5F6C381D13D702008D0895 /* FoodDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5F6C181D13D701008D0895 /* FoodDiary */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F6C191D13D701008D0895 /* AppDelegate.swift */,
+				DC5F6C1B1D13D701008D0895 /* ViewController.swift */,
+				DC5F6C1D1D13D701008D0895 /* Main.storyboard */,
+				DC5F6C231D13D701008D0895 /* Assets.xcassets */,
+				DC5F6C251D13D701008D0895 /* LaunchScreen.storyboard */,
+				DC5F6C281D13D701008D0895 /* Info.plist */,
+				DC5F6C201D13D701008D0895 /* FoodDiary.xcdatamodeld */,
+			);
+			path = FoodDiary;
+			sourceTree = "<group>";
+		};
+		DC5F6C301D13D702008D0895 /* FoodDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F6C311D13D702008D0895 /* FoodDiaryTests.swift */,
+				DC5F6C331D13D702008D0895 /* Info.plist */,
+			);
+			path = FoodDiaryTests;
+			sourceTree = "<group>";
+		};
+		DC5F6C3B1D13D702008D0895 /* FoodDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F6C3C1D13D702008D0895 /* FoodDiaryUITests.swift */,
+				DC5F6C3E1D13D702008D0895 /* Info.plist */,
+			);
+			path = FoodDiaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5F6C151D13D701008D0895 /* FoodDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5F6C411D13D702008D0895 /* Build configuration list for PBXNativeTarget "FoodDiary" */;
+			buildPhases = (
+				DC5F6C121D13D701008D0895 /* Sources */,
+				DC5F6C131D13D701008D0895 /* Frameworks */,
+				DC5F6C141D13D701008D0895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodDiary;
+			productName = FoodDiary;
+			productReference = DC5F6C161D13D701008D0895 /* FoodDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC5F6C2C1D13D702008D0895 /* FoodDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5F6C441D13D702008D0895 /* Build configuration list for PBXNativeTarget "FoodDiaryTests" */;
+			buildPhases = (
+				DC5F6C291D13D702008D0895 /* Sources */,
+				DC5F6C2A1D13D702008D0895 /* Frameworks */,
+				DC5F6C2B1D13D702008D0895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5F6C2F1D13D702008D0895 /* PBXTargetDependency */,
+			);
+			name = FoodDiaryTests;
+			productName = FoodDiaryTests;
+			productReference = DC5F6C2D1D13D702008D0895 /* FoodDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC5F6C371D13D702008D0895 /* FoodDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5F6C471D13D702008D0895 /* Build configuration list for PBXNativeTarget "FoodDiaryUITests" */;
+			buildPhases = (
+				DC5F6C341D13D702008D0895 /* Sources */,
+				DC5F6C351D13D702008D0895 /* Frameworks */,
+				DC5F6C361D13D702008D0895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5F6C3A1D13D702008D0895 /* PBXTargetDependency */,
+			);
+			name = FoodDiaryUITests;
+			productName = FoodDiaryUITests;
+			productReference = DC5F6C381D13D702008D0895 /* FoodDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5F6C0E1D13D701008D0895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = curryyou;
+				TargetAttributes = {
+					DC5F6C151D13D701008D0895 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DC5F6C2C1D13D702008D0895 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DC5F6C151D13D701008D0895;
+					};
+					DC5F6C371D13D702008D0895 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DC5F6C151D13D701008D0895;
+					};
+				};
+			};
+			buildConfigurationList = DC5F6C111D13D701008D0895 /* Build configuration list for PBXProject "FoodDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5F6C0D1D13D701008D0895;
+			productRefGroup = DC5F6C171D13D701008D0895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5F6C151D13D701008D0895 /* FoodDiary */,
+				DC5F6C2C1D13D702008D0895 /* FoodDiaryTests */,
+				DC5F6C371D13D702008D0895 /* FoodDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5F6C141D13D701008D0895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5F6C271D13D701008D0895 /* LaunchScreen.storyboard in Resources */,
+				DC5F6C241D13D701008D0895 /* Assets.xcassets in Resources */,
+				DC5F6C1F1D13D701008D0895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5F6C2B1D13D702008D0895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5F6C361D13D702008D0895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5F6C121D13D701008D0895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5F6C1C1D13D701008D0895 /* ViewController.swift in Sources */,
+				DC5F6C1A1D13D701008D0895 /* AppDelegate.swift in Sources */,
+				DC5F6C221D13D701008D0895 /* FoodDiary.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5F6C291D13D702008D0895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5F6C321D13D702008D0895 /* FoodDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5F6C341D13D702008D0895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5F6C3D1D13D702008D0895 /* FoodDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC5F6C2F1D13D702008D0895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5F6C151D13D701008D0895 /* FoodDiary */;
+			targetProxy = DC5F6C2E1D13D702008D0895 /* PBXContainerItemProxy */;
+		};
+		DC5F6C3A1D13D702008D0895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5F6C151D13D701008D0895 /* FoodDiary */;
+			targetProxy = DC5F6C391D13D702008D0895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC5F6C1D1D13D701008D0895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5F6C1E1D13D701008D0895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC5F6C251D13D701008D0895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5F6C261D13D701008D0895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC5F6C3F1D13D702008D0895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC5F6C401D13D702008D0895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC5F6C421D13D702008D0895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curryyou.FoodDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC5F6C431D13D702008D0895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curryyou.FoodDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC5F6C451D13D702008D0895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoodDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curryyou.FoodDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDiary.app/FoodDiary";
+			};
+			name = Debug;
+		};
+		DC5F6C461D13D702008D0895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoodDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curryyou.FoodDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDiary.app/FoodDiary";
+			};
+			name = Release;
+		};
+		DC5F6C481D13D702008D0895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FoodDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curryyou.FoodDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoodDiary;
+			};
+			name = Debug;
+		};
+		DC5F6C491D13D702008D0895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FoodDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curryyou.FoodDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoodDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5F6C111D13D701008D0895 /* Build configuration list for PBXProject "FoodDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5F6C3F1D13D702008D0895 /* Debug */,
+				DC5F6C401D13D702008D0895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5F6C411D13D702008D0895 /* Build configuration list for PBXNativeTarget "FoodDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5F6C421D13D702008D0895 /* Debug */,
+				DC5F6C431D13D702008D0895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC5F6C441D13D702008D0895 /* Build configuration list for PBXNativeTarget "FoodDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5F6C451D13D702008D0895 /* Debug */,
+				DC5F6C461D13D702008D0895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC5F6C471D13D702008D0895 /* Build configuration list for PBXNativeTarget "FoodDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5F6C481D13D702008D0895 /* Debug */,
+				DC5F6C491D13D702008D0895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC5F6C201D13D701008D0895 /* FoodDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC5F6C211D13D701008D0895 /* FoodDiary.xcdatamodel */,
+			);
+			currentVersion = DC5F6C211D13D701008D0895 /* FoodDiary.xcdatamodel */;
+			path = FoodDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC5F6C0E1D13D701008D0895 /* Project object */;
+}
