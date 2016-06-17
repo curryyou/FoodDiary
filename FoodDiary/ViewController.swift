@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         let label = UILabel(frame: CGRectMake(30, 30, 100, 50))
         label.text = "hello world"
         self.view.addSubview(label)
+        
+        let alertController = UIAlertController(title: "alert", message: "hello world", preferredStyle: .Alert)
+        let alertAction = UIAlertAction(title: "ok", style: .Cancel, handler: nil)
+        alertController.addAction(alertAction)
+        self.presentViewController(alertController, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
